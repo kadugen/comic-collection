@@ -1,0 +1,113 @@
+{
+ "new mutants|98|marvel": {
+  "series_id": 1490
+ },
+ "uncanny x-men|130|marvel": {
+  "series_id": 13034
+ },
+ "uncanny x-men|266|marvel": {
+  "series_id": 2247
+ },
+ "uncanny x-men|283|marvel": {
+  "series_id": 2247
+ },
+ "star wars: heir to the empire|1|dark horse": {
+  "series_id": 7126
+ },
+ "star wars: shadows of the empire|5|dark horse": {
+  "series_id": 7152
+ },
+ "star wars: shadows of the empire|6|dark horse": {
+  "series_id": 7152
+ },
+ "the infinity war|1|marvel": {
+  "series_id": 1028
+ },
+ "the infinity war|2|marvel": {
+  "series_id": 1028
+ },
+ "the infinity war|3|marvel": {
+  "series_id": 1028
+ },
+ "the infinity war|4|marvel": {
+  "series_id": 1028
+ },
+ "the infinity war|5|marvel": {
+  "series_id": 1028
+ },
+ "the infinity war|6|marvel": {
+  "series_id": 1028
+ },
+ "batman / spawn: war devil|1|image": {
+  "series_id": 2817
+ },
+ "spawn|18|image": {
+  "series_id": 5717
+ },
+ "shadow hawk|1|image": {
+  "series_id": 5685
+ },
+ "adventures of superman [collector's]|500|dc": {
+  "series_id": 2635,
+  "issue": "500c"
+ },
+ "the legend of aquaman|1|dc": {
+  "comic_id": 38276,
+  "series_id": 2692
+ },
+ "kingdom come|4|dc": {
+  "series_id": 3883
+ },
+ "x-men|1sce|marvel": {
+  "series_id": 3,
+  "issue": "1e"
+ },
+ "the new mutants, graphic novel|4|marvel": {
+  "comic_id": 17224,
+  "series_id": 1259
+ },
+ "bad habit|1|why not?": {
+  "skip": true
+ },
+ "bone|13.5|cartoon books": {
+  "issue": "13½"
+ },
+ "deathmate, silver (signed)|silver|image": {
+  "series_id": 5963,
+  "issue": "1"
+ },
+ "doom's iv|0.5|image": {
+  "issue": ".5"
+ },
+ "the maxx|1/2|image": {
+  "issue": ".5"
+ },
+ "green lantern|1-33|dc": {
+  "skip": true
+ },
+ "green lantern|46, 48-50|dc": {
+  "skip": true
+ },
+ "kingdom come - soft cover|1 2nd print|dc": {
+  "comic_id": 206408,
+  "series_id": 3883
+ },
+ "shadow hawk ii - vol. 2|1|image": {
+  "issue": "1 (5)"
+ },
+ "star wars: tales of the jedi - fall of the sith empire|1 ent a|dark horse": {
+  "issue": "1american ent-a"
+ },
+ "the adventures of superman, back from the dead|500?|dc": {
+  "issue": "500"
+ },
+ "x-men: ashcan edition|ashcan edb|marvel": {
+  "issue": "ashcan ed-b"
+ },
+ "x-o manowar|0 error|valiant": {
+  "issue": "0error-a"
+ },
+ "zero hour: crisis in time|preview|dc": {
+  "issue": "ashcan-a"
+ }
+}

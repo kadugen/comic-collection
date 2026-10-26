@@ -1,0 +1,1344 @@
+{
+ "adventures of superman [collector's]|500|dc": {
+  "comic_id": "37037",
+  "series": "The Adventures of Superman",
+  "series_id": "2635"
+ },
+ "all new exiles (signed)|1c|malibu": {
+  "comic_id": "207894",
+  "series": "The All New Exiles",
+  "series_id": "10179"
+ },
+ "amazing spider-man|365|marvel": {
+  "comic_id": "1793",
+  "series": "The Amazing Spider-Man",
+  "series_id": "113"
+ },
+ "amazing spider-man|375|marvel": {
+  "comic_id": "1803",
+  "series": "The Amazing Spider-Man",
+  "series_id": "113"
+ },
+ "anne rice's interview with the vampire|1|innovation": {
+  "comic_id": "157069",
+  "series": "Anne Rice's Interview with the Vampire",
+  "series_id": "14325"
+ },
+ "army of darkness|1|dark horse": {
+  "comic_id": "86226",
+  "series": "Army of Darkness",
+  "series_id": "6405"
+ },
+ "ash|1|event": {
+  "comic_id": "122655",
+  "series": "Ash",
+  "series_id": "10725"
+ },
+ "bartman - foil cover|1|bongo": {
+  "comic_id": "91354",
+  "series": "Bartman",
+  "series_id": "7315"
+ },
+ "batman / spawn: war devil|1|image": {
+  "comic_id": "39866",
+  "series": "Batman / Spawn: War Devil",
+  "series_id": "2817"
+ },
+ "batman grendel, vol. 1|1|dc": {
+  "comic_id": "39837",
+  "series": "Batman / Grendel",
+  "series_id": "2803"
+ },
+ "batman: sword of azrael|1|dc": {
+  "comic_id": "530012",
+  "series": "Batman: Sword of Azrael",
+  "series_id": "2964"
+ },
+ "batman: sword of azrael|2|dc": {
+  "comic_id": "40553",
+  "series": "Batman: Sword of Azrael",
+  "series_id": "2964"
+ },
+ "batman: sword of azrael|3|dc": {
+  "comic_id": "40554",
+  "series": "Batman: Sword of Azrael",
+  "series_id": "2964"
+ },
+ "batman|497|dc": {
+  "comic_id": "39339",
+  "series": "Batman",
+  "series_id": "2753"
+ },
+ "batman|500|dc": {
+  "comic_id": "39346",
+  "series": "Batman",
+  "series_id": "2753"
+ },
+ "beavis and butthead|1|marvel": {
+  "comic_id": "3583",
+  "series": "Beavis and Butthead",
+  "series_id": "229"
+ },
+ "beavis and butthead|ashcan|marvel": {
+  "comic_id": "3584",
+  "series": "Beavis and Butthead",
+  "series_id": "229"
+ },
+ "blood wolf|1e|image": {
+  "comic_id": "122957",
+  "series": "Bloodwulf",
+  "series_id": "5190"
+ },
+ "bloodshot - chromium cover|0|valiant": {
+  "comic_id": "75875",
+  "series": "Bloodshot",
+  "series_id": "5957"
+ },
+ "bloodshot|1|valiant": {
+  "comic_id": "75878",
+  "series": "Bloodshot",
+  "series_id": "5957"
+ },
+ "bloodshot|6|valiant": {
+  "comic_id": "75883",
+  "series": "Bloodshot",
+  "series_id": "5957"
+ },
+ "bloodstrike|1|image": {
+  "comic_id": "69706",
+  "series": "Bloodstrike",
+  "series_id": "5188"
+ },
+ "bone|13.5|cartoon books": {
+  "comic_id": "132751",
+  "series": "Bone",
+  "series_id": "12033"
+ },
+ "bram stoker's dracula|1|topps": {
+  "comic_id": "122306",
+  "series": "Bram Stoker's Dracula",
+  "series_id": "10660"
+ },
+ "break-thru (signed)|1|malibu": {
+  "comic_id": "119969",
+  "series": "Break-Thru",
+  "series_id": "10193"
+ },
+ "breed|1|malibu": {
+  "comic_id": "119972",
+  "series": "Breed",
+  "series_id": "10194"
+ },
+ "brigade|1|image": {
+  "comic_id": "69788",
+  "series": "Brigade",
+  "series_id": "5200"
+ },
+ "cable - vol. 1|1|marvel": {
+  "comic_id": "4476",
+  "series": "Cable",
+  "series_id": "321"
+ },
+ "cable - vol. 1|4|marvel": {
+  "comic_id": "4480",
+  "series": "Cable",
+  "series_id": "321"
+ },
+ "cable: blood and metal|1|marvel": {
+  "comic_id": "4593",
+  "series": "Cable: Blood and Metal",
+  "series_id": "323"
+ },
+ "cable: blood and metal|2|marvel": {
+  "comic_id": "4595",
+  "series": "Cable: Blood and Metal",
+  "series_id": "323"
+ },
+ "cain|1|harris": {
+  "comic_id": "159507",
+  "series": "Cain",
+  "series_id": "14695"
+ },
+ "classic star wars: devilworlds|1|dark horse": {
+  "comic_id": "86893",
+  "series": "Classic Star Wars: Devilworlds",
+  "series_id": "6509"
+ },
+ "cyber force|1|image": {
+  "comic_id": "70047",
+  "series": "Cyberforce",
+  "series_id": "5254"
+ },
+ "daredevil: man without fear|1|marvel": {
+  "comic_id": "7094",
+  "series": "Daredevil: The Man Without Fear",
+  "series_id": "514"
+ },
+ "daredevil|319|marvel": {
+  "comic_id": "6830",
+  "series": "Daredevil",
+  "series_id": "44"
+ },
+ "darker image|1|image": {
+  "comic_id": "70256",
+  "series": "Darker Image",
+  "series_id": "5285"
+ },
+ "darkman|1|marvel": {
+  "comic_id": "7217",
+  "series": "Darkman",
+  "series_id": "528"
+ },
+ "dead-pool|1|marvel": {
+  "comic_id": "7339",
+  "series": "Deadpool",
+  "series_id": "541"
+ },
+ "deathblow|1|image": {
+  "comic_id": "70443",
+  "series": "Deathblow",
+  "series_id": "5312"
+ },
+ "deathmate, black|black|image": {
+  "comic_id": "75950",
+  "series": "Deathmate",
+  "series_id": "5962"
+ },
+ "deathmate, blue|blue|image": {
+  "comic_id": "75954",
+  "series": "Deathmate",
+  "series_id": "5962"
+ },
+ "deathmate, prologue|prologue|image": {
+  "comic_id": "75948",
+  "series": "Deathmate",
+  "series_id": "5962"
+ },
+ "deathmate, silver (signed)|silver|image": {
+  "comic_id": "75958",
+  "series": "Deathmate: Tourbook",
+  "series_id": "5963"
+ },
+ "detective comics (signed by barr)|577|dc": {
+  "comic_id": "45350",
+  "series": "Detective Comics",
+  "series_id": "3308"
+ },
+ "detective comics|600|dc": {
+  "comic_id": "45373",
+  "series": "Detective Comics",
+  "series_id": "3308"
+ },
+ "doom 2099|1|marvel": {
+  "comic_id": "8214",
+  "series": "Doom 2099",
+  "series_id": "625"
+ },
+ "doom's iv|0.5|image": {
+  "comic_id": "70593",
+  "series": "Doom's IV",
+  "series_id": "5336"
+ },
+ "elektra: assassin|2|epic": {
+  "comic_id": "8639",
+  "series": "Elektra: Assassin",
+  "series_id": "668"
+ },
+ "evil ernie: the resurrection (signed)|1|chaos": {
+  "comic_id": "93053",
+  "series": "Evil Ernie: The Resurrection",
+  "series_id": "8272"
+ },
+ "firearm (signed)|1b|malibu": {
+  "comic_id": "122833",
+  "series": "Firearm",
+  "series_id": "10223"
+ },
+ "fish police|2|fishwrap?": {
+  "comic_id": "167156",
+  "series": "The Fish Police",
+  "series_id": "15877"
+ },
+ "fish police|3|fishwrap?": {
+  "comic_id": "167157",
+  "series": "The Fish Police",
+  "series_id": "15877"
+ },
+ "freex|1|ultraverse": {
+  "comic_id": "120134",
+  "series": "Freex",
+  "series_id": "10227"
+ },
+ "gambit|1|marvel": {
+  "comic_id": "10446",
+  "series": "Gambit",
+  "series_id": "816"
+ },
+ "gen 13 - vol. 1|3|image": {
+  "comic_id": "71042",
+  "series": "Gen 13",
+  "series_id": "5405"
+ },
+ "gen 13 - vol. 1|4|image": {
+  "comic_id": "71043",
+  "series": "Gen 13",
+  "series_id": "5405"
+ },
+ "gen 13 - vol. 1|5|image": {
+  "comic_id": "71044",
+  "series": "Gen 13",
+  "series_id": "5405"
+ },
+ "gen 13 - vol. 2|1|image": {
+  "comic_id": "71024",
+  "series": "Gen 13",
+  "series_id": "5405"
+ },
+ "gen 13 - vol. 2|5|image": {
+  "comic_id": "71044",
+  "series": "Gen 13",
+  "series_id": "5405"
+ },
+ "generation x - w/ multicolor foil|1|marvel": {
+  "comic_id": "10528",
+  "series": "Generation X",
+  "series_id": "829"
+ },
+ "green lantern / green arrow|2|dc": {
+  "comic_id": "49454",
+  "series": "Green Lantern / Green Arrow",
+  "series_id": "3558"
+ },
+ "green lantern, annual vol. 3|1|dc": {
+  "comic_id": "49215",
+  "series": "Green Lantern",
+  "series_id": "3546"
+ },
+ "hardcase (signed)|1|malibu": {
+  "comic_id": "120178",
+  "series": "Hardcase",
+  "series_id": "10233"
+ },
+ "homage studios swimsuit special|1|image": {
+  "comic_id": "71325",
+  "series": "Homage Studios Swimsuit Special",
+  "series_id": "5465"
+ },
+ "image plus|1|image": {
+  "comic_id": "71332",
+  "series": "Image Plus",
+  "series_id": "5472"
+ },
+ "inside image|4|image": {
+  "comic_id": "71363",
+  "series": "Inside Image",
+  "series_id": "5479"
+ },
+ "itchy & scratchy|1|bongo": {
+  "comic_id": "91391",
+  "series": "Itchy & Scratchy Comics",
+  "series_id": "7323"
+ },
+ "kingdom come - soft cover|1 2nd print|dc": {
+  "comic_id": "206408",
+  "series_id": "3883"
+ },
+ "kingdom come - soft cover|2|dc": {
+  "comic_id": "52894",
+  "series": "Kingdom Come",
+  "series_id": "3883"
+ },
+ "kingdom come|4|dc": {
+  "comic_id": "52896",
+  "series": "Kingdom Come",
+  "series_id": "3883"
+ },
+ "lone wolf and cub|13|first": {
+  "comic_id": "107983",
+  "series": "Lone Wolf and Cub",
+  "series_id": "9543"
+ },
+ "magneto - w/ purple foil|0|marvel": {
+  "comic_id": "16234",
+  "series": "Magneto",
+  "series_id": "14989"
+ },
+ "magnus, robot fighter / nexus|1|valiant": {
+  "comic_id": "76207",
+  "series": "Magnus, Robot Fighter / Nexus",
+  "series_id": "5980"
+ },
+ "magnus, robot fighter|25|valiant": {
+  "comic_id": "76163",
+  "series": "Magnus, Robot Fighter",
+  "series_id": "5979"
+ },
+ "malibu signature series|1|malibu": {
+  "comic_id": "168094",
+  "series": "Malibu Signature Series",
+  "series_id": "16063"
+ },
+ "mantra (signed)|1|malibu": {
+  "comic_id": "120281",
+  "series": "Mantra",
+  "series_id": "10245"
+ },
+ "marvel saga|10|marvel": {
+  "comic_id": "17633",
+  "series": "Marvel Saga",
+  "series_id": "1317"
+ },
+ "marvel saga|20|marvel": {
+  "comic_id": "17643",
+  "series": "Marvel Saga",
+  "series_id": "1317"
+ },
+ "marvel saga|7|marvel": {
+  "comic_id": "17630",
+  "series": "Marvel Saga",
+  "series_id": "1317"
+ },
+ "marvel saga|8|marvel": {
+  "comic_id": "17631",
+  "series": "Marvel Saga",
+  "series_id": "1317"
+ },
+ "marvel swimsuit special|2|marvel": {
+  "comic_id": "17923",
+  "series": "Marvel Swimsuit Special",
+  "series_id": "1337"
+ },
+ "marvels|1|marvel": {
+  "comic_id": "16151",
+  "series": "Marvels",
+  "series_id": "11"
+ },
+ "midnight sons unlimited|1|marvel": {
+  "comic_id": "19186",
+  "series": "Midnight Sons Unlimited",
+  "series_id": "1408"
+ },
+ "new mutants|98|marvel": {
+  "comic_id": "20939",
+  "series": "The New Mutants",
+  "series_id": "1490"
+ },
+ "ninjak|1c|valiant": {
+  "comic_id": "493451",
+  "series": "Ninjak",
+  "series_id": "5981"
+ },
+ "pitt|1|image": {
+  "comic_id": "72152",
+  "series": "Pitt",
+  "series_id": "5621"
+ },
+ "prime - vol. 2|1b|malibu": {
+  "comic_id": "120496",
+  "series": "Prime",
+  "series_id": "10284"
+ },
+ "propeller man|1|dark horse": {
+  "comic_id": "88976",
+  "series": "Propeller Man",
+  "series_id": "6965"
+ },
+ "punisher 2099 - blue foil|1|marvel": {
+  "comic_id": "22910",
+  "series": "Punisher 2099",
+  "series_id": "1638"
+ },
+ "queen of the damned|1|innovation": {
+  "comic_id": "194108",
+  "series": "Anne Rice's Queen of the Damned",
+  "series_id": "19577"
+ },
+ "radioactive man|1|bongo": {
+  "comic_id": "91406",
+  "series": "Radioactive Man",
+  "series_id": "7328"
+ },
+ "rai (and the future force)|0|valiant": {
+  "comic_id": "76269",
+  "series": "Rai",
+  "series_id": "5990"
+ },
+ "ravage 2099|1|marvel": {
+  "comic_id": "245453",
+  "series": "Ravage 2099",
+  "series_id": "1695"
+ },
+ "robin 3000|1|dc": {
+  "comic_id": "57813",
+  "series": "Robin 3000",
+  "series_id": "4316"
+ },
+ "robin ii|2|dc": {
+  "comic_id": "57822",
+  "series": "Robin II: Jokers Wild",
+  "series_id": "4318"
+ },
+ "royal guard|1|cross word": {
+  "comic_id": "513758",
+  "series": "Royal Guard",
+  "series_id": "64501"
+ },
+ "sabretooth - vol. 1|1|marvel": {
+  "comic_id": "24065",
+  "series": "Sabretooth",
+  "series_id": "1757"
+ },
+ "savage dragon - vol. 1|1|image": {
+  "comic_id": "73885",
+  "series": "The Savage Dragon",
+  "series_id": "5665"
+ },
+ "savage dragon - vol. 2|1|image": {
+  "comic_id": "73890",
+  "series": "The Savage Dragon",
+  "series_id": "5666"
+ },
+ "savage dragon - vol. 2|2|image": {
+  "comic_id": "73891",
+  "series": "The Savage Dragon",
+  "series_id": "5666"
+ },
+ "savage dragon vs savage megaton man|1|image": {
+  "comic_id": "74028",
+  "series": "The Savage Dragon vs The Savage Megaton Man",
+  "series_id": "5671"
+ },
+ "secret weapons|1|valiant": {
+  "comic_id": "76323",
+  "series": "Secret Weapons",
+  "series_id": "5992"
+ },
+ "shadow hawk - vol. 1|3|image": {
+  "comic_id": "74067",
+  "series": "Shadowhawk",
+  "series_id": "5685"
+ },
+ "shadow hawk ii - vol. 2|1|image": {
+  "comic_id": "74079",
+  "series": "Shadowhawk II",
+  "series_id": "5688"
+ },
+ "shadow hawk|1|image": {
+  "comic_id": "74061",
+  "series": "Shadowhawk",
+  "series_id": "5685"
+ },
+ "shi: the way of the warrior (signed)|1|crusade": {
+  "comic_id": "122734",
+  "series": "Shi: The Way of the Warrior",
+  "series_id": "10733"
+ },
+ "simpsons comics and stories|1|bongo": {
+  "comic_id": "191522",
+  "series": "Simpsons Comics and Stories",
+  "series_id": "19121"
+ },
+ "simpsons comics|1|bongo": {
+  "comic_id": "91429",
+  "series": "Simpsons Comics",
+  "series_id": "7335"
+ },
+ "sin city|1|dark horse": {
+  "comic_id": "89197",
+  "series": "Frank Miller's Sin City: A Dame to Kill For",
+  "series_id": "7041"
+ },
+ "slapstick - vol. 1|1|marvel": {
+  "comic_id": "25494",
+  "series": "Slapstick",
+  "series_id": "1860"
+ },
+ "sludge (signed)|1|malibu": {
+  "comic_id": "120636",
+  "series": "Sludge",
+  "series_id": "10316"
+ },
+ "solar, man of the atom|29|valiant": {
+  "comic_id": "76425",
+  "series": "Solar, Man of the Atom",
+  "series_id": "5997"
+ },
+ "spawn|12|image": {
+  "comic_id": "74218",
+  "series": "Spawn",
+  "series_id": "5717"
+ },
+ "spawn|15|image": {
+  "comic_id": "74221",
+  "series": "Spawn",
+  "series_id": "5717"
+ },
+ "spawn|18|image": {
+  "comic_id": "74224",
+  "series": "Spawn",
+  "series_id": "5717"
+ },
+ "spawn|1|image": {
+  "comic_id": "74204",
+  "series": "Spawn",
+  "series_id": "5717"
+ },
+ "spawn|9|image": {
+  "comic_id": "74215",
+  "series": "Spawn",
+  "series_id": "5717"
+ },
+ "spectacular spider-man - vol. 1|189|marvel": {
+  "comic_id": "25880",
+  "series": "The Spectacular Spider-Man",
+  "series_id": "1893"
+ },
+ "spider-man - vol. 1|12|marvel": {
+  "comic_id": "26187",
+  "series": "Spider-Man",
+  "series_id": "1903"
+ },
+ "spider-man - vol. 1|13|marvel": {
+  "comic_id": "26188",
+  "series": "Spider-Man",
+  "series_id": "1903"
+ },
+ "spider-man - vol. 1|1c|marvel": {
+  "comic_id": "26166",
+  "series": "Spider-Man",
+  "series_id": "1903"
+ },
+ "spider-man - vol. 1|8|marvel": {
+  "comic_id": "26183",
+  "series": "Spider-Man",
+  "series_id": "1903"
+ },
+ "spider-man 2099 - vol. 1 w/ red foil|1|marvel": {
+  "comic_id": "26293",
+  "series": "Spider-Man 2099",
+  "series_id": "1905"
+ },
+ "spider-man 2099 - vol. 1|2|marvel": {
+  "comic_id": "26296",
+  "series": "Spider-Man 2099",
+  "series_id": "1905"
+ },
+ "spider-man classics|1|marvel": {
+  "comic_id": "26525",
+  "series": "Spider-Man Classics",
+  "series_id": "1915"
+ },
+ "spider-man unlimited|1|marvel": {
+  "comic_id": "26786",
+  "series": "Spider-Man Unlimited",
+  "series_id": "1929"
+ },
+ "star slammers - vol. 1|ashcan|malibu": {
+  "comic_id": "310341",
+  "series": "Star Slammers",
+  "series_id": "10320"
+ },
+ "star wars, tales of the jedi, dark empire ii|1|dark horse": {
+  "comic_id": "89539",
+  "series": "Star Wars: Dark Empire II",
+  "series_id": "7107"
+ },
+ "star wars, tales of the jedi, dark empire ii|2|dark horse": {
+  "comic_id": "89543",
+  "series": "Star Wars: Dark Empire II",
+  "series_id": "7107"
+ },
+ "star wars, tales of the jedi, dark empire ii|3|dark horse": {
+  "comic_id": "89546",
+  "series": "Star Wars: Dark Empire II",
+  "series_id": "7107"
+ },
+ "star wars, tales of the jedi, dark empire ii|4|dark horse": {
+  "comic_id": "89549",
+  "series": "Star Wars: Dark Empire II",
+  "series_id": "7107"
+ },
+ "star wars, tales of the jedi, dark empire ii|5|dark horse": {
+  "comic_id": "89552",
+  "series": "Star Wars: Dark Empire II",
+  "series_id": "7107"
+ },
+ "star wars, tales of the jedi, dark empire ii|6|dark horse": {
+  "comic_id": "89555",
+  "series": "Star Wars: Dark Empire II",
+  "series_id": "7107"
+ },
+ "star wars: boba fett|1|dark horse": {
+  "comic_id": "89479",
+  "series": "Star Wars: Boba Fett",
+  "series_id": "7094"
+ },
+ "star wars: dark empire - vol. 1|4|dark horse": {
+  "comic_id": "89527",
+  "series": "Star Wars: Dark Empire",
+  "series_id": "7106"
+ },
+ "star wars: dark empire - vol. 1|5|dark horse": {
+  "comic_id": "89530",
+  "series": "Star Wars: Dark Empire",
+  "series_id": "7106"
+ },
+ "star wars: empire's end|1|dark horse": {
+  "comic_id": "89615",
+  "series": "Star Wars: Empire's End",
+  "series_id": "7117"
+ },
+ "star wars: empire's end|2|dark horse": {
+  "comic_id": "89616",
+  "series": "Star Wars: Empire's End",
+  "series_id": "7117"
+ },
+ "star wars: heir to the empire|1|dark horse": {
+  "comic_id": "226344",
+  "series": "Star Wars: Heir to the Empire",
+  "series_id": "7126"
+ },
+ "star wars: heir to the empire|2|dark horse": {
+  "comic_id": "89652",
+  "series": "Star Wars: Heir to the Empire",
+  "series_id": "7126"
+ },
+ "star wars: heir to the empire|3|dark horse": {
+  "comic_id": "89653",
+  "series": "Star Wars: Heir to the Empire",
+  "series_id": "7126"
+ },
+ "star wars: heir to the empire|4|dark horse": {
+  "comic_id": "89654",
+  "series": "Star Wars: Heir to the Empire",
+  "series_id": "7126"
+ },
+ "star wars: heir to the empire|5|dark horse": {
+  "comic_id": "89655",
+  "series": "Star Wars: Heir to the Empire",
+  "series_id": "7126"
+ },
+ "star wars: heir to the empire|6|dark horse": {
+  "comic_id": "89656",
+  "series": "Star Wars: Heir to the Empire",
+  "series_id": "7126"
+ },
+ "star wars: shadows of the empire|1|dark horse": {
+  "comic_id": "89715",
+  "series": "Star Wars: Shadows of the Empire",
+  "series_id": "7152"
+ },
+ "star wars: shadows of the empire|2|dark horse": {
+  "comic_id": "89716",
+  "series": "Star Wars: Shadows of the Empire",
+  "series_id": "7152"
+ },
+ "star wars: shadows of the empire|3|dark horse": {
+  "comic_id": "89717",
+  "series": "Star Wars: Shadows of the Empire",
+  "series_id": "7152"
+ },
+ "star wars: shadows of the empire|4|dark horse": {
+  "comic_id": "89718",
+  "series": "Star Wars: Shadows of the Empire",
+  "series_id": "7152"
+ },
+ "star wars: shadows of the empire|5|dark horse": {
+  "comic_id": "89719",
+  "series": "Star Wars: Shadows of the Empire",
+  "series_id": "7152"
+ },
+ "star wars: shadows of the empire|6|dark horse": {
+  "comic_id": "89720",
+  "series": "Star Wars: Shadows of the Empire",
+  "series_id": "7152"
+ },
+ "star wars: tales from mos eisley|1|dark horse": {
+  "comic_id": "89738",
+  "series": "Star Wars: Tales from Mos Eisley",
+  "series_id": "7158"
+ },
+ "star wars: tales of the jedi - fall of the sith empire|1 ent a|dark horse": {
+  "comic_id": "89762",
+  "series": "Star Wars: Tales of the Jedi - Fall of the Sith Empire",
+  "series_id": "7162"
+ },
+ "star wars: tales of the jedi - freedon nadd uprising|1|dark horse": {
+  "comic_id": "89769",
+  "series": "Star Wars: Tales of the Jedi - Freedon Nadd Uprising",
+  "series_id": "7163"
+ },
+ "star wars: tales of the jedi - sith war|1|dark horse": {
+  "comic_id": "89784",
+  "series": "Star Wars: Tales of the Jedi - Sith War",
+  "series_id": "7167"
+ },
+ "star wars: tales of the jedi - the golden age of the sith|0|dark horse": {
+  "comic_id": "89778",
+  "series": "Star Wars: Tales of the Jedi - The Golden Age of the Sith",
+  "series_id": "7166"
+ },
+ "star wars: tales of the jedi|1|dark horse": {
+  "comic_id": "89739",
+  "series": "Star Wars: Tales of the Jedi",
+  "series_id": "7159"
+ },
+ "star wars: tales of the jedi|5|dark horse": {
+  "comic_id": "89747",
+  "series": "Star Wars: Tales of the Jedi",
+  "series_id": "7159"
+ },
+ "stormwatch|1|image": {
+  "comic_id": "74488",
+  "series": "Stormwatch",
+  "series_id": "5752"
+ },
+ "stryfe's strike file - silver foil|1|marvel": {
+  "comic_id": "28134",
+  "series": "Stryfe's Strike File",
+  "series_id": "2076"
+ },
+ "superman in action comics|687|dc": {
+  "comic_id": "35979",
+  "series": "Action Comics",
+  "series_id": "2618"
+ },
+ "superman the man of steel|22|dc": {
+  "comic_id": "63044",
+  "series": "Superman: The Man of Steel",
+  "series_id": "4746"
+ },
+ "superman the man of steel|25|dc": {
+  "comic_id": "63048",
+  "series": "Superman: The Man of Steel",
+  "series_id": "4746"
+ },
+ "superman|75|dc": {
+  "comic_id": "62388",
+  "series": "Superman",
+  "series_id": "4626"
+ },
+ "superman|78|dc": {
+  "comic_id": "62397",
+  "series": "Superman",
+  "series_id": "4626"
+ },
+ "supreme - embossed silver foil|1|image": {
+  "comic_id": "74628",
+  "series": "Supreme",
+  "series_id": "5767"
+ },
+ "surf crazed comics (signed)|4|pacifica": {
+  "comic_id": "354395",
+  "series": "Surf Crazed Comics",
+  "series_id": "41190"
+ },
+ "team 7|1b|image": {
+  "comic_id": "74718",
+  "series": "Team 7",
+  "series_id": "5774"
+ },
+ "the adventures of superman, back from the dead|500?|dc": {
+  "comic_id": "375320",
+  "series": "The Adventures of Superman",
+  "series_id": "2635"
+ },
+ "the adventures of superman|501|dc": {
+  "comic_id": "37042",
+  "series": "The Adventures of Superman",
+  "series_id": "2635"
+ },
+ "the infinity war|1|marvel": {
+  "comic_id": "13823",
+  "series": "Infinity War",
+  "series_id": "1028"
+ },
+ "the infinity war|2|marvel": {
+  "comic_id": "13824",
+  "series": "Infinity War",
+  "series_id": "1028"
+ },
+ "the infinity war|3|marvel": {
+  "comic_id": "13825",
+  "series": "Infinity War",
+  "series_id": "1028"
+ },
+ "the infinity war|4|marvel": {
+  "comic_id": "13826",
+  "series": "Infinity War",
+  "series_id": "1028"
+ },
+ "the infinity war|5|marvel": {
+  "comic_id": "13827",
+  "series": "Infinity War",
+  "series_id": "1028"
+ },
+ "the infinity war|6|marvel": {
+  "comic_id": "13828",
+  "series": "Infinity War",
+  "series_id": "1028"
+ },
+ "the legend of aquaman|1|dc": {
+  "comic_id": "38276",
+  "series_id": "2692"
+ },
+ "the maxx|1/2|image": {
+  "comic_id": "71804",
+  "series": "The Maxx",
+  "series_id": "5563"
+ },
+ "the maxx|1|image": {
+  "comic_id": "71806",
+  "series": "The Maxx",
+  "series_id": "5563"
+ },
+ "the new mutants, graphic novel|4|marvel": {
+  "comic_id": "17224",
+  "series_id": "1259"
+ },
+ "the ren & stimpy show|1|marvel": {
+  "comic_id": "23621",
+  "series": "The Ren & Stimpy Show",
+  "series_id": "1709"
+ },
+ "the second life of doctor mirage|1|valiant": {
+  "comic_id": "76305",
+  "series": "The Second Life of Doctor Mirage",
+  "series_id": "5991"
+ },
+ "the secret defenders|1|marvel": {
+  "comic_id": "24643",
+  "series": "The Secret Defenders",
+  "series_id": "1789"
+ },
+ "the spectre|8|dc": {
+  "comic_id": "59599",
+  "series": "The Spectre",
+  "series_id": "4497"
+ },
+ "the untold legend of the batman|3|dc": {
+  "comic_id": "65002",
+  "series": "The Untold Legend of the Batman",
+  "series_id": "4902"
+ },
+ "turok dinosaur hunter|1|valiant": {
+  "comic_id": "76491",
+  "series": "Turok: Dinosaur Hunter",
+  "series_id": "6005"
+ },
+ "ultraforce|0b|malibu": {
+  "comic_id": "120831",
+  "series": "Ultraforce",
+  "series_id": "10343"
+ },
+ "uncanny x-men|130|marvel": {
+  "comic_id": "34004",
+  "series": "The X-Men",
+  "series_id": "13034"
+ },
+ "uncanny x-men|193|marvel": {
+  "comic_id": "34070",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|199|marvel": {
+  "comic_id": "34076",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|266|marvel": {
+  "comic_id": "34144",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|270|marvel": {
+  "comic_id": "34148",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|281|marvel": {
+  "comic_id": "34161",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|283|marvel": {
+  "comic_id": "34165",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|294|marvel": {
+  "comic_id": "34176",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|295|marvel": {
+  "comic_id": "34178",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|296|marvel": {
+  "comic_id": "34180",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|300|marvel": {
+  "comic_id": "34186",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|311|marvel": {
+  "comic_id": "34205",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "uncanny x-men|320d|marvel": {
+  "comic_id": "34220",
+  "series": "The Uncanny X-Men",
+  "series_id": "2247"
+ },
+ "union|1|image": {
+  "comic_id": "75101",
+  "series": "Union",
+  "series_id": "5849"
+ },
+ "valiant vision starter kit|1|valiant": {
+  "comic_id": "76560",
+  "series": "Valiant Vision Starter Kit",
+  "series_id": "6012"
+ },
+ "venom lethal protector|1|marvel": {
+  "comic_id": "31468",
+  "series": "Venom: Lethal Protector",
+  "series_id": "2279"
+ },
+ "virus|1|dark horse": {
+  "comic_id": "90268",
+  "series": "Virus",
+  "series_id": "7256"
+ },
+ "warriors of plasm|1|defiant": {
+  "comic_id": "122859",
+  "series": "Warriors of Plasm",
+  "series_id": "10749"
+ },
+ "web of spider-man|90|marvel": {
+  "comic_id": "31989",
+  "series": "Web of Spider-Man",
+  "series_id": "2329"
+ },
+ "web of spiderman|100|marvel": {
+  "comic_id": "32000",
+  "series": "Web of Spider-Man",
+  "series_id": "2329"
+ },
+ "wildc.a.t.s|1|image": {
+  "comic_id": "75402",
+  "series": "WildC.A.T.s",
+  "series_id": "5900"
+ },
+ "wildc.a.t.s|2|image": {
+  "comic_id": "75408",
+  "series": "WildC.A.T.s",
+  "series_id": "5900"
+ },
+ "wildc.a.t.s|4b|image": {
+  "comic_id": "75413",
+  "series": "WildC.A.T.s",
+  "series_id": "5900"
+ },
+ "wildcats trilogy - foil cover|1|image": {
+  "comic_id": "75381",
+  "series": "WildCats Trilogy",
+  "series_id": "5892"
+ },
+ "wildstar: sky zero - embossed with silver ink|1|image": {
+  "comic_id": "75508",
+  "series": "Wildstar: Sky Zero",
+  "series_id": "5907"
+ },
+ "wolverine (signed)|96|marvel": {
+  "comic_id": "32761",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine (signed)|97|marvel": {
+  "comic_id": "32762",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|36|marvel": {
+  "comic_id": "32691",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|50|marvel": {
+  "comic_id": "32708",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|57|marvel": {
+  "comic_id": "32715",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|59|marvel": {
+  "comic_id": "32717",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|73|marvel": {
+  "comic_id": "32731",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|75|marvel": {
+  "comic_id": "32733",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "wolverine|90|marvel": {
+  "comic_id": "32754",
+  "series": "Wolverine",
+  "series_id": "2375"
+ },
+ "x men unlimited|1|marvel": {
+  "comic_id": "34647",
+  "series": "X-Men Unlimited",
+  "series_id": "2494"
+ },
+ "x-factor|23|marvel": {
+  "comic_id": "33232",
+  "series": "X-Factor",
+  "series_id": "2443"
+ },
+ "x-factor|2|marvel": {
+  "comic_id": "33210",
+  "series": "X-Factor",
+  "series_id": "2443"
+ },
+ "x-factor|84|marvel": {
+  "comic_id": "187671",
+  "series": "X-Factor",
+  "series_id": "2443"
+ },
+ "x-factor|85|marvel": {
+  "comic_id": "187672",
+  "series": "X-Factor",
+  "series_id": "2443"
+ },
+ "x-factor|86|marvel": {
+  "comic_id": "187673",
+  "series": "X-Factor",
+  "series_id": "2443"
+ },
+ "x-factor|94|marvel": {
+  "comic_id": "33306",
+  "series": "X-Factor",
+  "series_id": "2443"
+ },
+ "x-files - vol. 1 (signed)|3|topps": {
+  "comic_id": "122518",
+  "series": "The X-Files",
+  "series_id": "10706"
+ },
+ "x-files - vol. 1 (signed)|4|topps": {
+  "comic_id": "122520",
+  "series": "The X-Files",
+  "series_id": "10706"
+ },
+ "x-files - vol. 1|ashcan|topps": {
+  "comic_id": "298254",
+  "series": "The X-Files",
+  "series_id": "10706"
+ },
+ "x-force|16|marvel": {
+  "comic_id": "33405",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-force|17|marvel": {
+  "comic_id": "33407",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-force|18|marvel": {
+  "comic_id": "33409",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-force|1k|marvel": {
+  "comic_id": "33389",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-force|22|marvel": {
+  "comic_id": "33414",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-force|26|marvel": {
+  "comic_id": "33419",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-force|8|marvel": {
+  "comic_id": "33397",
+  "series": "X-Force",
+  "series_id": "2446"
+ },
+ "x-men 2099 - blue foil|1|marvel": {
+  "comic_id": "34404",
+  "series": "X-Men 2099",
+  "series_id": "2460"
+ },
+ "x-men adventures, season 2|1|marvel": {
+  "comic_id": "34461",
+  "series": "X-Men Adventures II",
+  "series_id": "2464"
+ },
+ "x-men adventures, season 2|2|marvel": {
+  "comic_id": "34462",
+  "series": "X-Men Adventures II",
+  "series_id": "2464"
+ },
+ "x-men adventures, season 2|3|marvel": {
+  "comic_id": "34463",
+  "series": "X-Men Adventures II",
+  "series_id": "2464"
+ },
+ "x-men adventures|1|marvel": {
+  "comic_id": "34444",
+  "series": "X-Men Adventures",
+  "series_id": "2462"
+ },
+ "x-men: alpha - chromium cover|1|marvel": {
+  "comic_id": "34741",
+  "series": "X-Men: Alpha",
+  "series_id": "2512"
+ },
+ "x-men: ashcan edition|ashcan edb|marvel": {
+  "comic_id": "34746",
+  "series": "X-Men: Ashcan Edition",
+  "series_id": "2513"
+ },
+ "x-men|14|marvel": {
+  "comic_id": "33660",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|15|marvel": {
+  "comic_id": "33663",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|1b|marvel": {
+  "comic_id": "33641",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|1sce|marvel": {
+  "comic_id": "33639",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|24|marvel": {
+  "comic_id": "33674",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|25|marvel": {
+  "comic_id": "33675",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|2|marvel": {
+  "comic_id": "33647",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|30|marvel": {
+  "comic_id": "33683",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|41|marvel": {
+  "comic_id": "33699",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|4|marvel": {
+  "comic_id": "33649",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|5|marvel": {
+  "comic_id": "33650",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|6|marvel": {
+  "comic_id": "33651",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|7|marvel": {
+  "comic_id": "33652",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|8|marvel": {
+  "comic_id": "33653",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-men|9|marvel": {
+  "comic_id": "33654",
+  "series": "X-Men",
+  "series_id": "3"
+ },
+ "x-o manowar|0 error|valiant": {
+  "comic_id": "338362",
+  "series": "X-O Manowar",
+  "series_id": "6023"
+ },
+ "x-o manowar|19|valiant": {
+  "comic_id": "76643",
+  "series": "X-O Manowar",
+  "series_id": "6023"
+ },
+ "x-o manowar|25|valiant": {
+  "comic_id": "76649",
+  "series": "X-O Manowar",
+  "series_id": "6023"
+ },
+ "youngblood - vol. 1 (signed)|1|image": {
+  "comic_id": "75762",
+  "series": "Youngblood",
+  "series_id": "5941"
+ },
+ "youngblood - vol. 1|3|image": {
+  "comic_id": "75766",
+  "series": "Youngblood",
+  "series_id": "5941"
+ },
+ "youngblood - vol. 1|5|image": {
+  "comic_id": "75768",
+  "series": "Youngblood",
+  "series_id": "5941"
+ },
+ "youngblood yearbook|1|image": {
+  "comic_id": "75794",
+  "series": "Youngblood Yearbook",
+  "series_id": "5944"
+ },
+ "youngblood: strikefile|1|image": {
+  "comic_id": "75799",
+  "series": "Youngblood: Strikefile",
+  "series_id": "5947"
+ },
+ "zero hour: crisis in time|preview|dc": {
+  "comic_id": "69093",
+  "series": "Zero Hour: Crisis in Time",
+  "series_id": "5066"
+ }
+}

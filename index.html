@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Comic Collection · asherdesign</title>
+<meta name="description" content="Current value of my comic book collection.">
+<style>
+  :root {
+    --surface-0: #f4f3ef;
+    --surface-1: #fcfcfb;
+    --border: #e2e0da;
+    --text-primary: #0b0b0b;
+    --text-secondary: #52514e;
+    --text-muted: #77756f;
+    --accent: #2a6fdb;
+    --good-text: #006300;
+    --bad-text: #b02a2a;
+    --shadow: 0 1px 2px rgb(0 0 0 / .06), 0 4px 16px rgb(0 0 0 / .05);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --surface-0: #111110;
+      --surface-1: #1a1a19;
+      --border: #2e2e2c;
+      --text-primary: #f0efec;
+      --text-secondary: #c3c2b7;
+      --text-muted: #9a9890;
+      --accent: #6ea2ff;
+      --good-text: #4fcf4f;
+      --bad-text: #ff7b7b;
+      --shadow: none;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--surface-0); color: var(--text-primary);
+    font: 15px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 1100px; margin: 0 auto; padding: 32px 20px 64px; }
+  a { color: var(--accent); }
+  h1 { font-size: 15px; font-weight: 600; letter-spacing: .02em; color: var(--text-secondary); margin: 0 0 6px; text-transform: uppercase; }
+  h2 { font-size: 18px; margin: 40px 0 14px; }
+
+  /* Hero */
+  .hero-value { font-size: 56px; font-weight: 650; line-height: 1.05; letter-spacing: -.02em; }
+  .hero-meta { color: var(--text-secondary); margin-top: 8px; display: flex; flex-wrap: wrap; gap: 6px 16px; }
+  .delta { font-weight: 600; white-space: nowrap; }
+  .delta.up { color: var(--good-text); }
+  .delta.down { color: var(--bad-text); }
+  .delta.flat { color: var(--text-muted); font-weight: 400; }
+
+  /* Top 6 */
+  .top-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 16px; }
+  @media (max-width: 760px) { .top-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+  @media (max-width: 460px) { .top-grid { grid-template-columns: 1fr; } }
+  .card {
+    background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px;
+    box-shadow: var(--shadow); display: flex; gap: 14px; padding: 14px; text-decoration: none; color: inherit;
+  }
+  .card:hover { border-color: var(--accent); }
+  .card img, .card .noimg {
+    width: 96px; height: 146px; object-fit: cover; border-radius: 4px; flex: none; background: var(--border);
+  }
+  .card .noimg { display: grid; place-items: center; color: var(--text-muted); font-size: 12px; }
+  .card .rank { color: var(--text-muted); font-size: 12px; font-weight: 600; }
+  .card .title { font-weight: 600; margin: 2px 0 4px; }
+  .card .meta { color: var(--text-secondary); font-size: 13px; }
+  .card .note { color: var(--text-muted); font-size: 12.5px; margin-top: 6px;
+    display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .price { font-size: 20px; font-weight: 650; margin-top: auto; padding-top: 8px; }
+  .card .body { display: flex; flex-direction: column; min-width: 0; }
+
+  /* Controls + table */
+  .controls { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 12px; }
+  .controls input, .controls select {
+    font: inherit; padding: 7px 10px; border-radius: 6px; border: 1px solid var(--border);
+    background: var(--surface-1); color: var(--text-primary);
+  }
+  .controls input { flex: 1 1 220px; min-width: 0; }
+  .no-history .col-change { display: none; }
+  .controls .count { color: var(--text-muted); margin-left: auto; }
+  .table-wrap { background: var(--surface-1); border: 1px solid var(--border); border-radius: 10px; overflow-x: auto; box-shadow: var(--shadow); }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 8px 12px; text-align: left; border-bottom: 1px solid var(--border); vertical-align: middle; }
+  tbody tr:last-child td { border-bottom: 0; }
+  tbody tr:hover { background: color-mix(in srgb, var(--accent) 6%, transparent); }
+  th { font-size: 12.5px; font-weight: 600; color: var(--text-secondary); white-space: nowrap; position: sticky; top: 0; background: var(--surface-1); }
+  th button { all: unset; cursor: pointer; display: inline-flex; gap: 4px; align-items: center; }
+  th button:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+  th .arrow { color: var(--text-muted); width: 1em; }
+  th[aria-sort] .arrow { color: var(--text-primary); }
+  .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+  th.num button { justify-content: flex-end; }
+  td.thumb { width: 44px; padding-right: 0; }
+  td.thumb img { width: 32px; height: 48px; object-fit: cover; border-radius: 2px; display: block; background: var(--border); }
+  .src { color: var(--text-muted); font-size: 12px; }
+  @media (max-width: 600px) { .hide-sm { display: none; } .hero-value { font-size: 44px; } }
+
+  .status { color: var(--text-secondary); padding: 40px 0; }
+  footer { color: var(--text-muted); font-size: 12.5px; margin-top: 28px; }
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <h1>Comic collection</h1>
+    <div class="hero-value" id="total">—</div>
+    <div class="hero-meta" id="hero-meta"></div>
+  </header>
+
+  <section aria-labelledby="top-h">
+    <h2 id="top-h">Most valuable</h2>
+    <div class="top-grid" id="top"></div>
+  </section>
+
+  <section aria-labelledby="all-h">
+    <h2 id="all-h">All comics</h2>
+    <div class="controls">
+      <input id="q" type="search" placeholder="Search title, issue, or notes" aria-label="Search">
+      <select id="pub" aria-label="Publisher"><option value="">All publishers</option></select>
+      <span class="count" id="count"></span>
+    </div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="hide-sm" aria-label="Cover"></th>
+            <th data-key="name"><button>Comic <span class="arrow"></span></button></th>
+            <th data-key="publisher"><button>Publisher <span class="arrow"></span></button></th>
+            <th data-key="date" class="hide-sm"><button>Published <span class="arrow"></span></button></th>
+            <th data-key="value" class="num"><button>Value <span class="arrow"></span></button></th>
+            <th data-key="change" class="num hide-sm col-change"><button><span id="change-h">Change</span> <span class="arrow"></span></button></th>
+          </tr>
+        </thead>
+        <tbody id="rows"><tr><td colspan="6" class="status">Loading prices…</td></tr></tbody>
+      </table>
+    </div>
+  </section>
+
+  <footer>
+    Values are ComicBookRealm's current price-guide values, refreshed automatically every 6 hours.
+    Comics marked “sheet” use the value from my spreadsheet.
+  </footer>
+</main>
+
+<script>
+const fmt = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD", maximumFractionDigits: 0 });
+const fmtCents = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
+const money = v => v == null ? "—" : (Number.isInteger(v) ? fmt : fmtCents).format(v);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const issueLabel = c => c.issue ? `#${c.issue}` : "";
+const year = d => d ? d.slice(0, 4) : "";
+
+function deltaHtml(d, { pct } = {}) {
+  if (d == null) return `<span class="delta flat">—</span>`;
+  if (Math.abs(d) < 0.005) return `<span class="delta flat">no change</span>`;
+  const up = d > 0;
+  const p = pct ? ` (${up ? "+" : "−"}${Math.abs(pct).toFixed(1)}%)` : "";
+  return `<span class="delta ${up ? "up" : "down"}"><span aria-hidden="true">${up ? "▲" : "▼"}</span> ${up ? "+" : "−"}${money(Math.abs(d))}${p}</span>`;
+}
+
+function timeAgo(iso) {
+  const mins = Math.round((Date.now() - new Date(iso)) / 60000);
+  if (mins < 60) return `${Math.max(mins, 1)} min ago`;
+  const h = Math.round(mins / 60);
+  if (h < 48) return `${h} hour${h === 1 ? "" : "s"} ago`;
+  return `${Math.round(h / 24)} days ago`;
+}
+
+// Baseline for "change": the newest snapshot at least 30 days old, else the oldest one.
+function pickBaseline(history) {
+  const dates = Object.keys(history).sort();
+  if (dates.length < 2) return null;
+  const cutoff = new Date(Date.now() - 30 * 864e5).toISOString().slice(0, 10);
+  const older = dates.filter(d => d <= cutoff);
+  const date = older.length ? older[older.length - 1] : dates[0];
+  return date === dates[dates.length - 1] ? null : { date, ...history[date] };
+}
+
+const state = { comics: [], sort: { key: "value", dir: -1 }, q: "", pub: "" };
+
+function compare(a, b, key) {
+  if (key === "name") {
+    return a.name.localeCompare(b.name, undefined, { sensitivity: "base" })
+      || a.issue.localeCompare(b.issue, undefined, { numeric: true });
+  }
+  const x = a[key], y = b[key];
+  if (x == null && y == null) return 0;
+  if (x == null) return 1;   // blanks always last
+  if (y == null) return -1;
+  return typeof x === "string" ? x.localeCompare(y, undefined, { sensitivity: "base" }) : x - y;
+}
+
+function renderTable() {
+  const { key, dir } = state.sort;
+  const q = state.q.trim().toLowerCase();
+  const list = state.comics
+    .filter(c => !state.pub || c.publisher === state.pub)
+    .filter(c => !q || `${c.name} #${c.issue} ${c.issue} ${c.note} ${c.series ?? ""}`.toLowerCase().includes(q))
+    .sort((a, b) => {
+      const blankA = a[key] == null, blankB = b[key] == null;
+      if (blankA !== blankB) return blankA ? 1 : -1;
+      return dir * compare(a, b, key) || compare(b, a, "value");
+    });
+
+  document.getElementById("rows").innerHTML = list.map(c => `
+    <tr>
+      <td class="thumb hide-sm">${c.thumb ? `<img loading="lazy" src="${esc(c.thumb)}" alt="">` : ""}</td>
+      <td>${c.url ? `<a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.name)} ${esc(issueLabel(c))}</a>` : `${esc(c.name)} ${esc(issueLabel(c))}`}
+        ${c.source === "sheet" ? ` <span class="src">sheet</span>` : ""}</td>
+      <td>${esc(c.publisher)}</td>
+      <td class="hide-sm">${esc(year(c.date))}</td>
+      <td class="num">${money(c.value)}</td>
+      <td class="num hide-sm col-change">${c.change == null ? "" : deltaHtml(c.change)}</td>
+    </tr>`).join("") || `<tr><td colspan="6" class="status">No comics match.</td></tr>`;
+
+  const sum = list.reduce((s, c) => s + (c.value || 0), 0);
+  document.getElementById("count").textContent =
+    `${list.length} of ${state.comics.length} · ${money(Math.round(sum))}`;
+
+  document.querySelectorAll("th[data-key]").forEach(th => {
+    const active = th.dataset.key === key;
+    if (active) th.setAttribute("aria-sort", dir === 1 ? "ascending" : "descending");
+    else th.removeAttribute("aria-sort");
+    th.querySelector(".arrow").textContent = active ? (dir === 1 ? "↑" : "↓") : "↕";
+  });
+}
+
+function renderTop() {
+  const top = [...state.comics].filter(c => c.value != null)
+    .sort((a, b) => b.value - a.value || a.name.localeCompare(b.name)).slice(0, 6);
+  document.getElementById("top").innerHTML = top.map((c, i) => `
+    <a class="card" ${c.url ? `href="${esc(c.url)}" target="_blank" rel="noopener"` : ""}>
+      ${c.cover ? `<img loading="lazy" src="${esc(c.cover)}" alt="Cover of ${esc(c.name)} ${esc(issueLabel(c))}">` : `<div class="noimg">No cover</div>`}
+      <div class="body">
+        <div class="rank">#${i + 1}</div>
+        <div class="title">${esc(c.name)} ${esc(issueLabel(c))}</div>
+        <div class="meta">${esc(c.publisher)}${c.date ? ` · ${esc(year(c.date))}` : ""}</div>
+        ${c.note ? `<div class="note">${esc(c.note)}</div>` : ""}
+        <div class="price">${money(c.value)} ${c.change ? deltaHtml(c.change) : ""}</div>
+      </div>
+    </a>`).join("");
+}
+
+async function load() {
+  const bust = `?t=${Date.now()}`;
+  const [prices, history] = await Promise.all([
+    fetch(`data/prices.json${bust}`).then(r => r.json()),
+    fetch(`data/history.json${bust}`).then(r => r.ok ? r.json() : {}).catch(() => ({})),
+  ]);
+
+  const base = pickBaseline(history);
+  state.comics = prices.comics.map(c => {
+    const was = base && c.comic_id && c.source !== "sheet" ? base.values[c.comic_id] : undefined;
+    return { ...c, change: was != null && c.value != null ? c.value - was : null };
+  });
+
+  document.getElementById("total").textContent = money(Math.round(prices.total));
+  const d = base ? prices.total - base.total : null;
+  const since = base ? new Date(base.date + "T12:00:00").toLocaleDateString(undefined, { month: "short", day: "numeric" }) : "";
+  document.getElementById("hero-meta").innerHTML = [
+    base ? `${deltaHtml(d, { pct: base.total ? (d / base.total) * 100 : 0 })} since ${esc(since)}` : "",
+    `${prices.comics.length} comics`,
+    `Prices updated ${esc(timeAgo(prices.updated))}`,
+  ].filter(Boolean).map(s => `<span>${s}</span>`).join("");
+  document.getElementById("change-h").textContent = base ? `Since ${since}` : "Change";
+  document.body.classList.toggle("no-history", !base);
+
+  const pubs = [...new Set(state.comics.map(c => c.publisher).filter(Boolean))].sort((a, b) => a.localeCompare(b));
+  document.getElementById("pub").insertAdjacentHTML("beforeend",
+    pubs.map(p => `<option>${esc(p)}</option>`).join(""));
+
+  renderTop();
+  renderTable();
+}
+
+document.querySelectorAll("th[data-key] button").forEach(btn => btn.addEventListener("click", () => {
+  const key = btn.parentElement.dataset.key;
+  const s = state.sort;
+  // Text columns start A→Z; numeric columns start high→low.
+  s.dir = s.key === key ? -s.dir : (["name", "publisher"].includes(key) ? 1 : -1);
+  s.key = key;
+  renderTable();
+}));
+document.getElementById("q").addEventListener("input", e => { state.q = e.target.value; renderTable(); });
+document.getElementById("pub").addEventListener("change", e => { state.pub = e.target.value; renderTable(); });
+
+load().catch(err => {
+  console.error(err);
+  document.getElementById("rows").innerHTML = `<tr><td colspan="6" class="status">Couldn't load prices.</td></tr>`;
+});
+</script>
+</body>
+</html>
